@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "golinPan";
+    src: url("fonts/Pangolin-Regular.woff") format('woff');
+}
+
+body {
+    background-image: url("/dark_embroidery.png");
+}
+
+#contentPane {
+    color:white;
+    font-family: 'Pangolin';
+    width:40%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: none;
+    margin-bottom: none;
+    border: 5px solid #333333;
+    background-color: #062F4F;
+    box-shadow: 10px 10px 30px #000000;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    position:relative;
+    top: -800px;
+  }
+
+  to {
+        position:relative;
+        top: 0px;
+  }
+}
+
+#aroundTitle {
+     text-align: center;
+     width: 100%;
+     background: linear-gradient(#020e17, #062F4F); ;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 2.3em;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display:inline;
+}
+
+p:first-of-type {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid #333333;
+}
+
+tr:nth-child(1) {
+    background-color: #042137;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    vertical-align: text-top;
+}
+
+#name:hover {
+    color:red;
+}
+
+#lastname {
+   font-family: 'golinPan'; 
+}
+
+a:visited {
+    color:white;
+}
